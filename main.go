@@ -6,7 +6,7 @@ import (
 	"github.com/yoshikouki/go-sample/morestrings"
 )
 
-func main()  {
+func main() {
 	fmt.Println(morestrings.ReverseRunes("Hello, world."))
 	fmt.Println(cmp.Diff("Hello World", "Hello Go"))
 }
